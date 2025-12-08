@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Archivos de modelos grandes
+keras/models/*.keras
+keras/models/*_savedmodel/
+*.onnx
